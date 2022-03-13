@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="48dp">
+
+
+        <TextView
+            android:id="@+id/texto_conectar"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:fontFamily="@font/abel"
+            android:text="Solución Sistema de Ecuación Cuadrática"
+            android:textAlignment="center"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:src="@mipmap/ecuacioncuadratica" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/abel"
+            android:text="Por Favor Ingresa el Valor de Cada Incognita"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/id_a"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:fontFamily="@font/abel"
+            android:hint="a:"
+            android:inputType="textPersonName"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/id_b"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:fontFamily="@font/abel"
+            android:hint="b:"
+            android:inputType="textPersonName"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/id_c"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:fontFamily="@font/abel"
+            android:hint="c:"
+            android:inputType="textPersonName"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/btn_calcular"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/abel"
+            android:text="Calcular"
+            android:background="@color/colorPrimary"
+            android:backgroundTint="#455A64"
+            android:textColor="#FFFFFF"
+
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/id_x1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="1er. Solución" />
+
+        <TextView
+            android:id="@+id/id_x2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="2da. Solución" />
+
+        <TextView
+            android:id="@+id/id_res"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="TextView" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

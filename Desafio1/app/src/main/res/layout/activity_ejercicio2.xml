@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Ejercicio_2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="48dp">
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/abel"
+            android:text="Calculo de Salario de un Empleado"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/nombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Ingrese Nombre y Apellido del Empleado"
+            android:inputType="textPersonName"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/id_horas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Ingrese el total de horas trabajadas"
+            android:inputType="number"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Seleccione el Cargo del Empleado"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/id_gerente"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gerente" />
+
+            <RadioButton
+                android:id="@+id/id_asistente"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Asistente" />
+
+            <RadioButton
+                android:id="@+id/id_secretaria"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Secretaria" />
+
+            <RadioButton
+                android:id="@+id/id_otrosCargos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Otros" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="185dp"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:backgroundTint="#455A64"
+
+            android:gravity="center"
+            android:onClick="Calcular"
+            android:text="Calcular"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/id_resultado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Resultado." />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/id_resulta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/id_descuen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Listado de Descuentos" />
+
+        <TextView
+            android:id="@+id/id_ISSS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/id_AFP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/id_RENTA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/id_liquido"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Salario Liquido Final" />
+
+        <TextView
+            android:id="@+id/id_salarioLiquido"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
